@@ -1,0 +1,1509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* StudentCompanionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StudentCompanionTests.m */; };
+		2A43A85824240ADF00DD38E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A43A85724240ADF00DD38E4 /* Images.xcassets */; };
+		2A999EF1236DB3F600FF5256 /* StudentCompanionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StudentCompanionTests.m */; };
+		2AB256B52353E55500C663B3 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3510C39202682810015056F /* Fabric.framework */; };
+		2AD982C62419749600F73761 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD982C52419749600F73761 /* AppDelegate.m */; };
+		2AD982C82419756800F73761 /* GoodBooks.entitlements in Sources */ = {isa = PBXBuildFile; fileRef = 2AD982C7241974E000F73761 /* GoodBooks.entitlements */; };
+		2AD982CD241979E900F73761 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD982CC241979E900F73761 /* main.m */; };
+		2AD982E5241980F400F73761 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD982E3241980F400F73761 /* LaunchScreen.xib */; };
+		2AD982E72419841F00F73761 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AD982E62419841F00F73761 /* GoogleService-Info.plist */; };
+		2AF6EAD224198E6100BAC248 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AF6EAD124198E6100BAC248 /* main.jsbundle */; };
+		2DCD954D1E0B4F2C00145EB5 /* StudentCompanionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StudentCompanionTests.m */; };
+		5FB49DA07B029BB8B2DCBC50 /* libPods-GoodBooksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 706B4ED6CE290C4622B71CE5 /* libPods-GoodBooksTests.a */; };
+		9C0B6A3B97E1185491359D0D /* libPods-GoodBooks-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BECA037B1F63F05ABC9078A /* libPods-GoodBooks-tvOS.a */; };
+		B9CD0DEEC34BE0872F3BB6E5 /* libPods-GoodBooks-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC353E3163FF47A34624183 /* libPods-GoodBooks-tvOSTests.a */; };
+		E4B7718780689B9B1D527936 /* libPods-GoodBooks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DC9263460F021C187C204B /* libPods-GoodBooks.a */; };
+		F3C41735201A8D64000BEAE1 /* RCTPushNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C41733201A8D64000BEAE1 /* RCTPushNotificationManager.m */; };
+		F3FE407E20446D8100320E1A /* Fabric.framework in Sources */ = {isa = PBXBuildFile; fileRef = F3510C39202682810015056F /* Fabric.framework */; };
+		F3FE40B52044736400320E1A /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3510C38202682810015056F /* Crashlytics.framework */; };
+		F3FE40B72044736400320E1A /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3510C39202682810015056F /* Fabric.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = StudentCompanion;
+		};
+		2A4353A22323D8740072A429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A43539D2323D8740072A429 /* RNGestureHandler.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNGestureHandler;
+		};
+		2A4353A42323D8740072A429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A43539D2323D8740072A429 /* RNGestureHandler.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5C32A36220C603B000FFB8D;
+			remoteInfo = "RNGestureHandler-tvOS";
+		};
+		F3C5B75B2017FD990000D6F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3C5B7552017FD990000D6F0 /* ReactNativeNavigation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D8AFADBD1BEE6F3F00A4592D;
+			remoteInfo = ReactNativeNavigation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004ED793846C21440A94F746 /* Pods-GoodBooks-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBooks-tvOS.release.xcconfig"; path = "Target Support Files/Pods-GoodBooks-tvOS/Pods-GoodBooks-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* GoodBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* StudentCompanionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentCompanionTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Good Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Good Books.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1D6B332C19836427DD7C3C /* Pods-GoodBooks-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBooks-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-GoodBooks-tvOSTests/Pods-GoodBooks-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2A43539D2323D8740072A429 /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
+		2A43A85724240ADF00DD38E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GoodBooks/Images.xcassets; sourceTree = "<group>"; };
+		2A6AD4DB01CF61E9015D62A1 /* Pods-GoodBooks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBooks.debug.xcconfig"; path = "Target Support Files/Pods-GoodBooks/Pods-GoodBooks.debug.xcconfig"; sourceTree = "<group>"; };
+		2A999EF8236DB3F600FF5256 /* GoodBooks-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoodBooks-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD982C52419749600F73761 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GoodBooks/AppDelegate.m; sourceTree = "<group>"; };
+		2AD982C7241974E000F73761 /* GoodBooks.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = GoodBooks.entitlements; path = GoodBooks/GoodBooks.entitlements; sourceTree = "<group>"; };
+		2AD982CC241979E900F73761 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GoodBooks/main.m; sourceTree = "<group>"; };
+		2AD982DD24197EAC00F73761 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GoodBooks/Info.plist; sourceTree = "<group>"; };
+		2AD982DE24197EAC00F73761 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GoodBooks/AppDelegate.h; sourceTree = "<group>"; };
+		2AD982E4241980F400F73761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = GoodBooks/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2AD982E62419841F00F73761 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "GoodBooks/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2AF6EAD124198E6100BAC248 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		2D02E4901E0B4A5D006451C7 /* GoodBooks-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoodBooks-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC353E3163FF47A34624183 /* libPods-GoodBooks-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoodBooks-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3067E9997F00424BAC014A53 /* libRNShare.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNShare.a; sourceTree = "<group>"; };
+		4BECA037B1F63F05ABC9078A /* libPods-GoodBooks-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoodBooks-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD99F10E96F4894BC4D302C /* libReactNativeNavigation.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeNavigation.a; sourceTree = "<group>"; };
+		50FC2C3A64FFFF64040C5AB5 /* Pods-GoodBooks-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBooks-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GoodBooks-tvOS/Pods-GoodBooks-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		690F7E39992666CADD3505DD /* Pods-GoodBooksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBooksTests.debug.xcconfig"; path = "Target Support Files/Pods-GoodBooksTests/Pods-GoodBooksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B0EFE571C584B4F9151B85E /* libRNImagePicker.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNImagePicker.a; sourceTree = "<group>"; };
+		706B4ED6CE290C4622B71CE5 /* libPods-GoodBooksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoodBooksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D31454820923E186B7B525B /* Pods-GoodBooks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBooks.release.xcconfig"; path = "Target Support Files/Pods-GoodBooks/Pods-GoodBooks.release.xcconfig"; sourceTree = "<group>"; };
+		A0E845CAE71E16B63D073C26 /* Pods-GoodBooksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBooksTests.release.xcconfig"; path = "Target Support Files/Pods-GoodBooksTests/Pods-GoodBooksTests.release.xcconfig"; sourceTree = "<group>"; };
+		A5DC9263460F021C187C204B /* libPods-GoodBooks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoodBooks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06A1932167D4520B2BB00BD /* libRNPhotoView.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNPhotoView.a; sourceTree = "<group>"; };
+		DFF9319D9C4B018938DF78DD /* Pods-GoodBooks-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBooks-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-GoodBooks-tvOSTests/Pods-GoodBooks-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F31FE17820438DA900390886 /* GTMLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMLogger.h; sourceTree = "<group>"; };
+		F31FE17920438DA900390886 /* GTMLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMLogger.m; sourceTree = "<group>"; };
+		F31FE17A20438DA900390886 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		F31FE17B20438DA900390886 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		F31FE17C20438DA900390886 /* GTMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		F31FE17D20438DA900390886 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F31FE17E20438DA900390886 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F31FE18020438DE800390886 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3510C38202682810015056F /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		F3510C39202682810015056F /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		F3794FC82017ED2A008E5483 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		F3794FC92017ED2A008E5483 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		F3794FCA2017ED2A008E5483 /* GTMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		F3794FCB2017ED2A008E5483 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F3794FCC2017ED2A008E5483 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F3794FF92017ED8C008E5483 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		F3794FFA2017ED8C008E5483 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		F3C41732201A8D64000BEAE1 /* RCTPushNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTPushNotificationManager.h; sourceTree = "<group>"; };
+		F3C41733201A8D64000BEAE1 /* RCTPushNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTPushNotificationManager.m; sourceTree = "<group>"; };
+		F3C5B7132017FD990000D6F0 /* RCCTitleViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCTitleViewHelper.h; sourceTree = "<group>"; };
+		F3C5B7142017FD990000D6F0 /* RCCTitleViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCTitleViewHelper.m; sourceTree = "<group>"; };
+		F3C5B7152017FD990000D6F0 /* RCTConvert+UIBarButtonSystemItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+UIBarButtonSystemItem.h"; sourceTree = "<group>"; };
+		F3C5B7162017FD990000D6F0 /* RCTConvert+UIBarButtonSystemItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+UIBarButtonSystemItem.m"; sourceTree = "<group>"; };
+		F3C5B7172017FD990000D6F0 /* RCTHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTHelpers.h; sourceTree = "<group>"; };
+		F3C5B7182017FD990000D6F0 /* RCTHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTHelpers.m; sourceTree = "<group>"; };
+		F3C5B7192017FD990000D6F0 /* RCCCustomBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCCustomBarButtonItem.h; sourceTree = "<group>"; };
+		F3C5B71A2017FD990000D6F0 /* RCCCustomBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCCustomBarButtonItem.m; sourceTree = "<group>"; };
+		F3C5B71B2017FD990000D6F0 /* RCCCustomTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCCustomTitleView.h; sourceTree = "<group>"; };
+		F3C5B71C2017FD990000D6F0 /* RCCCustomTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCCustomTitleView.m; sourceTree = "<group>"; };
+		F3C5B71F2017FD990000D6F0 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		F3C5B7202017FD990000D6F0 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		F3C5B7212017FD990000D6F0 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		F3C5B7222017FD990000D6F0 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		F3C5B7232017FD990000D6F0 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		F3C5B7242017FD990000D6F0 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		F3C5B7252017FD990000D6F0 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		F3C5B7262017FD990000D6F0 /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		F3C5B7272017FD990000D6F0 /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		F3C5B7282017FD990000D6F0 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		F3C5B7292017FD990000D6F0 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		F3C5B72A2017FD990000D6F0 /* RCCDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCDrawerController.h; sourceTree = "<group>"; };
+		F3C5B72B2017FD990000D6F0 /* RCCDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCDrawerController.m; sourceTree = "<group>"; };
+		F3C5B72C2017FD990000D6F0 /* RCCDrawerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCDrawerHelper.h; sourceTree = "<group>"; };
+		F3C5B72D2017FD990000D6F0 /* RCCDrawerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCDrawerHelper.m; sourceTree = "<group>"; };
+		F3C5B72E2017FD990000D6F0 /* RCCDrawerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCDrawerProtocol.h; sourceTree = "<group>"; };
+		F3C5B72F2017FD990000D6F0 /* RCCTheSideBarManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCTheSideBarManagerViewController.h; sourceTree = "<group>"; };
+		F3C5B7302017FD990000D6F0 /* RCCTheSideBarManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCTheSideBarManagerViewController.m; sourceTree = "<group>"; };
+		F3C5B7332017FD990000D6F0 /* SidebarAirbnbAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarAirbnbAnimation.h; sourceTree = "<group>"; };
+		F3C5B7342017FD990000D6F0 /* SidebarAirbnbAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarAirbnbAnimation.m; sourceTree = "<group>"; };
+		F3C5B7352017FD990000D6F0 /* SidebarAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarAnimation.h; sourceTree = "<group>"; };
+		F3C5B7362017FD990000D6F0 /* SidebarAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarAnimation.m; sourceTree = "<group>"; };
+		F3C5B7372017FD990000D6F0 /* SidebarFacebookAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarFacebookAnimation.h; sourceTree = "<group>"; };
+		F3C5B7382017FD990000D6F0 /* SidebarFacebookAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarFacebookAnimation.m; sourceTree = "<group>"; };
+		F3C5B7392017FD990000D6F0 /* SidebarFeedlyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarFeedlyAnimation.h; sourceTree = "<group>"; };
+		F3C5B73A2017FD990000D6F0 /* SidebarFeedlyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarFeedlyAnimation.m; sourceTree = "<group>"; };
+		F3C5B73B2017FD990000D6F0 /* SidebarFlipboardAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarFlipboardAnimation.h; sourceTree = "<group>"; };
+		F3C5B73C2017FD990000D6F0 /* SidebarFlipboardAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarFlipboardAnimation.m; sourceTree = "<group>"; };
+		F3C5B73D2017FD990000D6F0 /* SidebarLuvocracyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarLuvocracyAnimation.h; sourceTree = "<group>"; };
+		F3C5B73E2017FD990000D6F0 /* SidebarLuvocracyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarLuvocracyAnimation.m; sourceTree = "<group>"; };
+		F3C5B73F2017FD990000D6F0 /* SidebarWunderlistAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarWunderlistAnimation.h; sourceTree = "<group>"; };
+		F3C5B7402017FD990000D6F0 /* SidebarWunderlistAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarWunderlistAnimation.m; sourceTree = "<group>"; };
+		F3C5B7412017FD990000D6F0 /* TheSidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheSidebarController.h; sourceTree = "<group>"; };
+		F3C5B7422017FD990000D6F0 /* TheSidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheSidebarController.m; sourceTree = "<group>"; };
+		F3C5B7432017FD990000D6F0 /* RCCExternalViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCExternalViewControllerProtocol.h; sourceTree = "<group>"; };
+		F3C5B7442017FD990000D6F0 /* RCCLightBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCLightBox.h; sourceTree = "<group>"; };
+		F3C5B7452017FD990000D6F0 /* RCCLightBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCLightBox.m; sourceTree = "<group>"; };
+		F3C5B7462017FD990000D6F0 /* RCCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCManager.h; sourceTree = "<group>"; };
+		F3C5B7472017FD990000D6F0 /* RCCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCManager.m; sourceTree = "<group>"; };
+		F3C5B7482017FD990000D6F0 /* RCCManagerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCManagerModule.h; sourceTree = "<group>"; };
+		F3C5B7492017FD990000D6F0 /* RCCManagerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCManagerModule.m; sourceTree = "<group>"; };
+		F3C5B74A2017FD990000D6F0 /* RCCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCNavigationController.h; sourceTree = "<group>"; };
+		F3C5B74B2017FD990000D6F0 /* RCCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCNavigationController.m; sourceTree = "<group>"; };
+		F3C5B74C2017FD990000D6F0 /* RCCNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCNotification.h; sourceTree = "<group>"; };
+		F3C5B74D2017FD990000D6F0 /* RCCNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCNotification.m; sourceTree = "<group>"; };
+		F3C5B74E2017FD990000D6F0 /* RCCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCTabBarController.h; sourceTree = "<group>"; };
+		F3C5B74F2017FD990000D6F0 /* RCCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCTabBarController.m; sourceTree = "<group>"; };
+		F3C5B7512017FD990000D6F0 /* RCCToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCToolBar.h; sourceTree = "<group>"; };
+		F3C5B7522017FD990000D6F0 /* RCCToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCToolBar.m; sourceTree = "<group>"; };
+		F3C5B7532017FD990000D6F0 /* RCCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCViewController.h; sourceTree = "<group>"; };
+		F3C5B7542017FD990000D6F0 /* RCCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCViewController.m; sourceTree = "<group>"; };
+		F3C5B7552017FD990000D6F0 /* ReactNativeNavigation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ReactNativeNavigation.xcodeproj; sourceTree = "<group>"; };
+		F3C5B7582017FD990000D6F0 /* UIViewController+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Rotation.h"; sourceTree = "<group>"; };
+		F3C5B7592017FD990000D6F0 /* UIViewController+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Rotation.m"; sourceTree = "<group>"; };
+		F3CF279B20175F1B0021E9BC /* GTMNSData+zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		F3CF279C20175F1B0021E9BC /* GTMNSData+zlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		F3CF279D20175F1B0021E9BC /* GTMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		F3CF279E20175F1B0021E9BC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F3CF279F20175F1B0021E9BC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F3CF27CD201769D20021E9BC /* GTMNSData+zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		F3CF27CE201769D20021E9BC /* GTMNSData+zlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		F3CF27CF201769D20021E9BC /* GTMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		F3CF27D0201769D20021E9BC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F3CF27D1201769D20021E9BC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F3CF27D420176A190021E9BC /* GTMNSData+zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		F3CF27D520176A190021E9BC /* GTMNSData+zlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		F3CF27D620176A190021E9BC /* GTMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		F3CF27D720176A190021E9BC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F3CF27D820176A190021E9BC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F3FE41032045040F00320E1A /* RSKImageCropper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSKImageCropper.framework; path = "../node_modules/react-native-image-crop-picker/ios/ImageCropPickerSDK/RSKImageCropper.framework"; sourceTree = "<group>"; };
+		F3FE41042045040F00320E1A /* QBImagePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QBImagePicker.framework; path = "../node_modules/react-native-image-crop-picker/ios/ImageCropPickerSDK/QBImagePicker.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB256B52353E55500C663B3 /* Fabric.framework in Frameworks */,
+				5FB49DA07B029BB8B2DCBC50 /* libPods-GoodBooksTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FE40B52044736400320E1A /* Crashlytics.framework in Frameworks */,
+				F3FE40B72044736400320E1A /* Fabric.framework in Frameworks */,
+				E4B7718780689B9B1D527936 /* libPods-GoodBooks.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A999EF2236DB3F600FF5256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0B6A3B97E1185491359D0D /* libPods-GoodBooks-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CD0DEEC34BE0872F3BB6E5 /* libPods-GoodBooks-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* StudentCompanionTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* StudentCompanionTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = StudentCompanionTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* GoodBooks */ = {
+			isa = PBXGroup;
+			children = (
+				2A43A85724240ADF00DD38E4 /* Images.xcassets */,
+				2AF6EAD124198E6100BAC248 /* main.jsbundle */,
+				2AD982E3241980F400F73761 /* LaunchScreen.xib */,
+				2AD982DE24197EAC00F73761 /* AppDelegate.h */,
+				2AD982DD24197EAC00F73761 /* Info.plist */,
+				2AD982CC241979E900F73761 /* main.m */,
+				2AD982C7241974E000F73761 /* GoodBooks.entitlements */,
+				2AD982C52419749600F73761 /* AppDelegate.m */,
+			);
+			name = GoodBooks;
+			sourceTree = "<group>";
+		};
+		2A43539E2323D8740072A429 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A4353A32323D8740072A429 /* libRNGestureHandler.a */,
+				2A4353A52323D8740072A429 /* libRNGestureHandler-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		660B0850A6BA3EA5C25B4AA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F31FE18020438DE800390886 /* GoogleToolboxForMac.framework */,
+				F31FE17620438DA800390886 /* GoogleToolboxForMac */,
+				F3794FF82017ED8C008E5483 /* Foundation */,
+				F3CF279920175F1B0021E9BC /* GoogleToolboxForMac */,
+				F3CF27CB201769D20021E9BC /* GoogleToolboxForMac */,
+				F3CF27D220176A190021E9BC /* GoogleToolboxForMac */,
+				F3794FC62017ED2A008E5483 /* GoogleToolboxForMac */,
+				A5DC9263460F021C187C204B /* libPods-GoodBooks.a */,
+				4BECA037B1F63F05ABC9078A /* libPods-GoodBooks-tvOS.a */,
+				2EC353E3163FF47A34624183 /* libPods-GoodBooks-tvOSTests.a */,
+				706B4ED6CE290C4622B71CE5 /* libPods-GoodBooksTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2A43539D2323D8740072A429 /* RNGestureHandler.xcodeproj */,
+				F3C41730201A8D64000BEAE1 /* PushNotificationIOS */,
+				F3C5B7112017FD990000D6F0 /* ios */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				2AD982E62419841F00F73761 /* GoogleService-Info.plist */,
+				F3FE41042045040F00320E1A /* QBImagePicker.framework */,
+				F3FE41032045040F00320E1A /* RSKImageCropper.framework */,
+				F3510C38202682810015056F /* Crashlytics.framework */,
+				F3510C39202682810015056F /* Fabric.framework */,
+				13B07FAE1A68108700A75B9A /* GoodBooks */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* StudentCompanionTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				F3AE57FE1FF407DC00773607 /* Recovered References */,
+				660B0850A6BA3EA5C25B4AA6 /* Frameworks */,
+				8D2037B15E9839C3ED4ECB30 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Good Books.app */,
+				00E356EE1AD99517003FC87E /* GoodBooksTests.xctest */,
+				2D02E4901E0B4A5D006451C7 /* GoodBooks-tvOSTests.xctest */,
+				2A999EF8236DB3F600FF5256 /* GoodBooks-tvOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D2037B15E9839C3ED4ECB30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A6AD4DB01CF61E9015D62A1 /* Pods-GoodBooks.debug.xcconfig */,
+				7D31454820923E186B7B525B /* Pods-GoodBooks.release.xcconfig */,
+				50FC2C3A64FFFF64040C5AB5 /* Pods-GoodBooks-tvOS.debug.xcconfig */,
+				004ED793846C21440A94F746 /* Pods-GoodBooks-tvOS.release.xcconfig */,
+				DFF9319D9C4B018938DF78DD /* Pods-GoodBooks-tvOSTests.debug.xcconfig */,
+				1C1D6B332C19836427DD7C3C /* Pods-GoodBooks-tvOSTests.release.xcconfig */,
+				690F7E39992666CADD3505DD /* Pods-GoodBooksTests.debug.xcconfig */,
+				A0E845CAE71E16B63D073C26 /* Pods-GoodBooksTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F31FE17620438DA800390886 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				F31FE17720438DA900390886 /* Foundation */,
+				F31FE17C20438DA900390886 /* GTMDefines.h */,
+				F31FE17D20438DA900390886 /* LICENSE */,
+				F31FE17E20438DA900390886 /* README.md */,
+			);
+			name = GoogleToolboxForMac;
+			path = Pods/GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		F31FE17720438DA900390886 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F31FE17820438DA900390886 /* GTMLogger.h */,
+				F31FE17920438DA900390886 /* GTMLogger.m */,
+				F31FE17A20438DA900390886 /* GTMNSData+zlib.h */,
+				F31FE17B20438DA900390886 /* GTMNSData+zlib.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		F3794FC62017ED2A008E5483 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				F3794FC72017ED2A008E5483 /* Foundation */,
+				F3794FCA2017ED2A008E5483 /* GTMDefines.h */,
+				F3794FCB2017ED2A008E5483 /* LICENSE */,
+				F3794FCC2017ED2A008E5483 /* README.md */,
+			);
+			name = GoogleToolboxForMac;
+			path = Pods/GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		F3794FC72017ED2A008E5483 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F3794FC82017ED2A008E5483 /* GTMNSData+zlib.h */,
+				F3794FC92017ED2A008E5483 /* GTMNSData+zlib.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		F3794FF82017ED8C008E5483 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F3794FF92017ED8C008E5483 /* GTMNSData+zlib.h */,
+				F3794FFA2017ED8C008E5483 /* GTMNSData+zlib.m */,
+			);
+			name = Foundation;
+			path = Pods/GoogleToolboxForMac/Foundation;
+			sourceTree = "<group>";
+		};
+		F3AE57FE1FF407DC00773607 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				4CD99F10E96F4894BC4D302C /* libReactNativeNavigation.a */,
+				3067E9997F00424BAC014A53 /* libRNShare.a */,
+				D06A1932167D4520B2BB00BD /* libRNPhotoView.a */,
+				6B0EFE571C584B4F9151B85E /* libRNImagePicker.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		F3C41730201A8D64000BEAE1 /* PushNotificationIOS */ = {
+			isa = PBXGroup;
+			children = (
+				F3C41732201A8D64000BEAE1 /* RCTPushNotificationManager.h */,
+				F3C41733201A8D64000BEAE1 /* RCTPushNotificationManager.m */,
+			);
+			name = PushNotificationIOS;
+			path = "../node_modules/react-native/Libraries/PushNotificationIOS";
+			sourceTree = "<group>";
+		};
+		F3C5B7112017FD990000D6F0 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				F3C5B7122017FD990000D6F0 /* Helpers */,
+				F3C5B7192017FD990000D6F0 /* RCCCustomBarButtonItem.h */,
+				F3C5B71A2017FD990000D6F0 /* RCCCustomBarButtonItem.m */,
+				F3C5B71B2017FD990000D6F0 /* RCCCustomTitleView.h */,
+				F3C5B71C2017FD990000D6F0 /* RCCCustomTitleView.m */,
+				F3C5B71D2017FD990000D6F0 /* RCCDrawerController */,
+				F3C5B7432017FD990000D6F0 /* RCCExternalViewControllerProtocol.h */,
+				F3C5B7442017FD990000D6F0 /* RCCLightBox.h */,
+				F3C5B7452017FD990000D6F0 /* RCCLightBox.m */,
+				F3C5B7462017FD990000D6F0 /* RCCManager.h */,
+				F3C5B7472017FD990000D6F0 /* RCCManager.m */,
+				F3C5B7482017FD990000D6F0 /* RCCManagerModule.h */,
+				F3C5B7492017FD990000D6F0 /* RCCManagerModule.m */,
+				F3C5B74A2017FD990000D6F0 /* RCCNavigationController.h */,
+				F3C5B74B2017FD990000D6F0 /* RCCNavigationController.m */,
+				F3C5B74C2017FD990000D6F0 /* RCCNotification.h */,
+				F3C5B74D2017FD990000D6F0 /* RCCNotification.m */,
+				F3C5B74E2017FD990000D6F0 /* RCCTabBarController.h */,
+				F3C5B74F2017FD990000D6F0 /* RCCTabBarController.m */,
+				F3C5B7502017FD990000D6F0 /* RCCToolBar */,
+				F3C5B7532017FD990000D6F0 /* RCCViewController.h */,
+				F3C5B7542017FD990000D6F0 /* RCCViewController.m */,
+				F3C5B7552017FD990000D6F0 /* ReactNativeNavigation.xcodeproj */,
+				F3C5B7582017FD990000D6F0 /* UIViewController+Rotation.h */,
+				F3C5B7592017FD990000D6F0 /* UIViewController+Rotation.m */,
+			);
+			name = ios;
+			path = "../node_modules/react-native-navigation/ios";
+			sourceTree = "<group>";
+		};
+		F3C5B7122017FD990000D6F0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F3C5B7132017FD990000D6F0 /* RCCTitleViewHelper.h */,
+				F3C5B7142017FD990000D6F0 /* RCCTitleViewHelper.m */,
+				F3C5B7152017FD990000D6F0 /* RCTConvert+UIBarButtonSystemItem.h */,
+				F3C5B7162017FD990000D6F0 /* RCTConvert+UIBarButtonSystemItem.m */,
+				F3C5B7172017FD990000D6F0 /* RCTHelpers.h */,
+				F3C5B7182017FD990000D6F0 /* RCTHelpers.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F3C5B71D2017FD990000D6F0 /* RCCDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				F3C5B71E2017FD990000D6F0 /* MMDrawerController */,
+				F3C5B72A2017FD990000D6F0 /* RCCDrawerController.h */,
+				F3C5B72B2017FD990000D6F0 /* RCCDrawerController.m */,
+				F3C5B72C2017FD990000D6F0 /* RCCDrawerHelper.h */,
+				F3C5B72D2017FD990000D6F0 /* RCCDrawerHelper.m */,
+				F3C5B72E2017FD990000D6F0 /* RCCDrawerProtocol.h */,
+				F3C5B72F2017FD990000D6F0 /* RCCTheSideBarManagerViewController.h */,
+				F3C5B7302017FD990000D6F0 /* RCCTheSideBarManagerViewController.m */,
+				F3C5B7312017FD990000D6F0 /* TheSidebarController */,
+			);
+			path = RCCDrawerController;
+			sourceTree = "<group>";
+		};
+		F3C5B71E2017FD990000D6F0 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				F3C5B71F2017FD990000D6F0 /* MMDrawerBarButtonItem.h */,
+				F3C5B7202017FD990000D6F0 /* MMDrawerBarButtonItem.m */,
+				F3C5B7212017FD990000D6F0 /* MMDrawerController+Subclass.h */,
+				F3C5B7222017FD990000D6F0 /* MMDrawerController.h */,
+				F3C5B7232017FD990000D6F0 /* MMDrawerController.m */,
+				F3C5B7242017FD990000D6F0 /* MMDrawerVisualState.h */,
+				F3C5B7252017FD990000D6F0 /* MMDrawerVisualState.m */,
+				F3C5B7262017FD990000D6F0 /* MMExampleDrawerVisualStateManager.h */,
+				F3C5B7272017FD990000D6F0 /* MMExampleDrawerVisualStateManager.m */,
+				F3C5B7282017FD990000D6F0 /* UIViewController+MMDrawerController.h */,
+				F3C5B7292017FD990000D6F0 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		F3C5B7312017FD990000D6F0 /* TheSidebarController */ = {
+			isa = PBXGroup;
+			children = (
+				F3C5B7322017FD990000D6F0 /* Animations */,
+				F3C5B7412017FD990000D6F0 /* TheSidebarController.h */,
+				F3C5B7422017FD990000D6F0 /* TheSidebarController.m */,
+			);
+			path = TheSidebarController;
+			sourceTree = "<group>";
+		};
+		F3C5B7322017FD990000D6F0 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				F3C5B7332017FD990000D6F0 /* SidebarAirbnbAnimation.h */,
+				F3C5B7342017FD990000D6F0 /* SidebarAirbnbAnimation.m */,
+				F3C5B7352017FD990000D6F0 /* SidebarAnimation.h */,
+				F3C5B7362017FD990000D6F0 /* SidebarAnimation.m */,
+				F3C5B7372017FD990000D6F0 /* SidebarFacebookAnimation.h */,
+				F3C5B7382017FD990000D6F0 /* SidebarFacebookAnimation.m */,
+				F3C5B7392017FD990000D6F0 /* SidebarFeedlyAnimation.h */,
+				F3C5B73A2017FD990000D6F0 /* SidebarFeedlyAnimation.m */,
+				F3C5B73B2017FD990000D6F0 /* SidebarFlipboardAnimation.h */,
+				F3C5B73C2017FD990000D6F0 /* SidebarFlipboardAnimation.m */,
+				F3C5B73D2017FD990000D6F0 /* SidebarLuvocracyAnimation.h */,
+				F3C5B73E2017FD990000D6F0 /* SidebarLuvocracyAnimation.m */,
+				F3C5B73F2017FD990000D6F0 /* SidebarWunderlistAnimation.h */,
+				F3C5B7402017FD990000D6F0 /* SidebarWunderlistAnimation.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		F3C5B7502017FD990000D6F0 /* RCCToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				F3C5B7512017FD990000D6F0 /* RCCToolBar.h */,
+				F3C5B7522017FD990000D6F0 /* RCCToolBar.m */,
+			);
+			path = RCCToolBar;
+			sourceTree = "<group>";
+		};
+		F3C5B7562017FD990000D6F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3C5B75C2017FD990000D6F0 /* libReactNativeNavigation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3CF279920175F1B0021E9BC /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				F3CF279A20175F1B0021E9BC /* Foundation */,
+				F3CF279D20175F1B0021E9BC /* GTMDefines.h */,
+				F3CF279E20175F1B0021E9BC /* LICENSE */,
+				F3CF279F20175F1B0021E9BC /* README.md */,
+			);
+			name = GoogleToolboxForMac;
+			path = Pods/GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		F3CF279A20175F1B0021E9BC /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F3CF279B20175F1B0021E9BC /* GTMNSData+zlib.h */,
+				F3CF279C20175F1B0021E9BC /* GTMNSData+zlib.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		F3CF27CB201769D20021E9BC /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				F3CF27CC201769D20021E9BC /* Foundation */,
+				F3CF27CF201769D20021E9BC /* GTMDefines.h */,
+				F3CF27D0201769D20021E9BC /* LICENSE */,
+				F3CF27D1201769D20021E9BC /* README.md */,
+			);
+			name = GoogleToolboxForMac;
+			path = Pods/GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		F3CF27CC201769D20021E9BC /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F3CF27CD201769D20021E9BC /* GTMNSData+zlib.h */,
+				F3CF27CE201769D20021E9BC /* GTMNSData+zlib.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		F3CF27D220176A190021E9BC /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				F3CF27D320176A190021E9BC /* Foundation */,
+				F3CF27D620176A190021E9BC /* GTMDefines.h */,
+				F3CF27D720176A190021E9BC /* LICENSE */,
+				F3CF27D820176A190021E9BC /* README.md */,
+			);
+			name = GoogleToolboxForMac;
+			path = Pods/GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		F3CF27D320176A190021E9BC /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F3CF27D420176A190021E9BC /* GTMNSData+zlib.h */,
+				F3CF27D520176A190021E9BC /* GTMNSData+zlib.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* GoodBooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GoodBooksTests" */;
+			buildPhases = (
+				B3D90F9F00060B99C6C97307 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = GoodBooksTests;
+			productName = StudentCompanionTests;
+			productReference = 00E356EE1AD99517003FC87E /* GoodBooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* GoodBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GoodBooks" */;
+			buildPhases = (
+				D6C323F88A75F66EF583AECE /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F3510C35202681B10015056F /* Run Script */,
+				6F9B0CA1B1835C2EE4DF5AD4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodBooks;
+			productName = "Hello World";
+			productReference = 13B07F961A680F5B00A75B9A /* Good Books.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A999EEE236DB3F600FF5256 /* GoodBooks-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A999EF5236DB3F600FF5256 /* Build configuration list for PBXNativeTarget "GoodBooks-tvOS" */;
+			buildPhases = (
+				2A999EEF236DB3F600FF5256 /* [CP] Check Pods Manifest.lock */,
+				2A999EF0236DB3F600FF5256 /* Sources */,
+				2A999EF2236DB3F600FF5256 /* Frameworks */,
+				2A999EF4236DB3F600FF5256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoodBooks-tvOS";
+			productName = "StudentCompanion-tvOSTests";
+			productReference = 2A999EF8236DB3F600FF5256 /* GoodBooks-tvOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D02E48F1E0B4A5D006451C7 /* GoodBooks-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GoodBooks-tvOSTests" */;
+			buildPhases = (
+				5D26B7E4EC7B9C9F5A6674EE /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoodBooks-tvOSTests";
+			productName = "StudentCompanion-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* GoodBooks-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 7F48H7WK5D;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 7F48H7WK5D;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					2A999EEE236DB3F600FF5256 = {
+						DevelopmentTeam = 7F48H7WK5D;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7F48H7WK5D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GoodBooks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F3C5B7562017FD990000D6F0 /* Products */;
+					ProjectRef = F3C5B7552017FD990000D6F0 /* ReactNativeNavigation.xcodeproj */;
+				},
+				{
+					ProductGroup = 2A43539E2323D8740072A429 /* Products */;
+					ProjectRef = 2A43539D2323D8740072A429 /* RNGestureHandler.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* GoodBooks */,
+				00E356ED1AD99517003FC87E /* GoodBooksTests */,
+				2D02E48F1E0B4A5D006451C7 /* GoodBooks-tvOSTests */,
+				2A999EEE236DB3F600FF5256 /* GoodBooks-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2A4353A32323D8740072A429 /* libRNGestureHandler.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNGestureHandler.a;
+			remoteRef = 2A4353A22323D8740072A429 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2A4353A52323D8740072A429 /* libRNGestureHandler-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRNGestureHandler-tvOS.a";
+			remoteRef = 2A4353A42323D8740072A429 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3C5B75C2017FD990000D6F0 /* libReactNativeNavigation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactNativeNavigation.a;
+			remoteRef = F3C5B75B2017FD990000D6F0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD982E5241980F400F73761 /* LaunchScreen.xib in Resources */,
+				2A43A85824240ADF00DD38E4 /* Images.xcassets in Resources */,
+				2AD982E72419841F00F73761 /* GoogleService-Info.plist in Resources */,
+				2AF6EAD224198E6100BAC248 /* main.jsbundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A999EF4236DB3F600FF5256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		2A999EEF236DB3F600FF5256 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodBooks-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D26B7E4EC7B9C9F5A6674EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodBooks-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F9B0CA1B1835C2EE4DF5AD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoodBooks/Pods-GoodBooks-resources.sh",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_amex.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_amex@2x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_amex@3x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_cvc.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_cvc@2x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_cvc@3x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_cvc_amex.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_cvc_amex@2x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_cvc_amex@3x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_diners.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_diners@2x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_diners@3x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_discover.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_discover@2x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_discover@3x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_jcb.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_jcb@2x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_jcb@3x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_mastercard.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_mastercard@2x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_mastercard@3x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_placeholder.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_placeholder@2x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_placeholder@3x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_placeholder_template.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_placeholder_template@2x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_placeholder_template@3x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_verve.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_verve@2x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_verve@3x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_visa.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_visa@2x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images/pstck_card_visa@3x.png",
+				"${PODS_ROOT}/Paystack/Paystack/Resources/Images",
+				"${PODS_CONFIGURATION_BUILD_DIR}/QBImagePickerController/QBImagePicker.bundle",
+				"${PODS_ROOT}/RSKImageCropper/RSKImageCropper/RSKImageCropperStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_amex.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_amex@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_amex@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_cvc.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_cvc@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_cvc@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_cvc_amex.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_cvc_amex@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_cvc_amex@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_diners.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_diners@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_diners@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_discover.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_discover@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_discover@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_jcb.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_jcb@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_jcb@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_mastercard.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_mastercard@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_mastercard@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_placeholder.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_placeholder@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_placeholder@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_placeholder_template.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_placeholder_template@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_placeholder_template@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_verve.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_verve@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_verve@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_visa.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_visa@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pstck_card_visa@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Images",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RSKImageCropperStrings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoodBooks/Pods-GoodBooks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D90F9F00060B99C6C97307 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodBooksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6C323F88A75F66EF583AECE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodBooks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3510C35202681B10015056F /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 774a1ab617ec8d3d0d8bb1e2acf9a43e58380d79 744bd8ba8516dcb79e8177690512c8a46bbe386a1e73dcc292574e60e4eed10e\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* StudentCompanionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD982CD241979E900F73761 /* main.m in Sources */,
+				2AD982C82419756800F73761 /* GoodBooks.entitlements in Sources */,
+				2AD982C62419749600F73761 /* AppDelegate.m in Sources */,
+				F3FE407E20446D8100320E1A /* Fabric.framework in Sources */,
+				F3C41735201A8D64000BEAE1 /* RCTPushNotificationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A999EF0236DB3F600FF5256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A999EF1236DB3F600FF5256 /* StudentCompanionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* StudentCompanionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* GoodBooks */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AD982E3241980F400F73761 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AD982E4241980F400F73761 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 690F7E39992666CADD3505DD /* Pods-GoodBooksTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7F48H7WK5D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+				);
+				INFOPLIST_FILE = StudentCompanionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentCompanion.app/StudentCompanion";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E845CAE71E16B63D073C26 /* Pods-GoodBooksTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 7F48H7WK5D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+				);
+				INFOPLIST_FILE = StudentCompanionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentCompanion.app/StudentCompanion";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6AD4DB01CF61E9015D62A1 /* Pods-GoodBooks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoodBooks/GoodBooks.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.01;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 7F48H7WK5D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-camera-kit/ios",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios/**",
+				);
+				INFOPLIST_FILE = GoodBooks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Google/Libraries\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodbooks.goodbooks;
+				PRODUCT_NAME = "Good Books";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D31454820923E186B7B525B /* Pods-GoodBooks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoodBooks/GoodBooks.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.01;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 7F48H7WK5D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-camera-kit/ios",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios/**",
+				);
+				INFOPLIST_FILE = GoodBooks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Protobuf\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/React\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/nanopb\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/react-native-camera-kit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/react-native-fetch-blob\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Google/Libraries\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodbooks.goodbooks;
+				PRODUCT_NAME = "Good Books";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2A999EF6236DB3F600FF5256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50FC2C3A64FFFF64040C5AB5 /* Pods-GoodBooks-tvOS.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7F48H7WK5D;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "StudentCompanion-tvOSTests copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.StudentCompanion-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentCompanion-tvOS.app/StudentCompanion-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2A999EF7236DB3F600FF5256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004ED793846C21440A94F746 /* Pods-GoodBooks-tvOS.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7F48H7WK5D;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "StudentCompanion-tvOSTests copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.StudentCompanion-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentCompanion-tvOS.app/StudentCompanion-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF9319D9C4B018938DF78DD /* Pods-GoodBooks-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7F48H7WK5D;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "StudentCompanion-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.StudentCompanion-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentCompanion-tvOS.app/StudentCompanion-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1D6B332C19836427DD7C3C /* Pods-GoodBooks-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7F48H7WK5D;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "StudentCompanion-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.StudentCompanion-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentCompanion-tvOS.app/StudentCompanion-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GoodBooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GoodBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A999EF5236DB3F600FF5256 /* Build configuration list for PBXNativeTarget "GoodBooks-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A999EF6236DB3F600FF5256 /* Debug */,
+				2A999EF7236DB3F600FF5256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GoodBooks-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GoodBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

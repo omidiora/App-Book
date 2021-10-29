@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "351623454212",
+    "firebase_url": "https://good-books-53b3e.firebaseio.com",
+    "project_id": "good-books-53b3e",
+    "storage_bucket": "good-books-53b3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351623454212:android:32bc0289d143543c371f51",
+        "android_client_info": {
+          "package_name": "com.goodbooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351623454212-ck3n7f73ttkua92jnbpevnqank0at0mm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goodbooks",
+            "certificate_hash": "becf5a3f4dc8571b60c97bf6bdf057d5c37bebfe"
+          }
+        },
+        {
+          "client_id": "351623454212-dp0g834vdcv7ost0ijocg0oh1q98a1l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWU6_IHufYuV2ml4UE3eIQFneRa7KIIVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351623454212-dp0g834vdcv7ost0ijocg0oh1q98a1l3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "351623454212-gqn60klflvstjtasv2kakculcgaolfbi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodbooks"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "presets": ["module:metro-react-native-babel-preset"],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", {
+      "legacy": true
+    }],
+    "@babel/plugin-proposal-object-rest-spread",
+    ["@babel/plugin-transform-runtime",{
+      "regenerator": false
+    }],
+    ["babel-plugin-rewrite-require", {
+      "aliases": {
+        "crypto": "crypto-browserify"
+      }
+    }],
+    ["module-resolver", {
+      "cwd": "babelrc",
+      "root": ["./src"],
+      "alias": {
+        "containers": "./src/containers",
+        "pages": "./src/pages",
+        "ducks": "./src/ducks",
+        "components": "./src/components",
+        "shared": "./src/shared"
+      },
+      "extensions": [".js", ".ios.js", ".android.js", ".json"]
+    }]
+  ]
+}
